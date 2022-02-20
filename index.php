@@ -1,5 +1,4 @@
 <?php
-#Visit https://t4tutorials.com for more tutorials
 $ans = null;
 if (isset($_POST['sub'])) {
     $num1 = $_POST['n1'];
@@ -19,9 +18,6 @@ if (isset($_POST['sub'])) {
 <head>
     <style>
         .container {
-            /*left: 25%;*/
-            /*padding: 100px;*/
-            /*text-align: center;*/
             height: 100vh !important;
             display: flex;
             justify-content: center;
